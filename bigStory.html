@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            width: 90%;
+            /* border: 1px solid black; */
+            display: flex;
+            margin-top: 30px;
+
+        }
+        #container{
+            width: 70%;
+            /* border: 1px solid red; */
+            margin: auto;
+            margin-top: 100px;
+            display: flex;
+
+        }
+            
+        }
+       #box1{
+           width: 80%;
+           /* border: 1px solid blueviolet; */
+       }
+        #first{
+            display: flex;
+        }
+        #first>div>img{
+            width:100%;
+        }
+        #first>div+div{
+            margin-left: 20px;
+        }
+        #second{
+            width: 100%;
+            /* border: 1px solid teal; */
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(1,450px);
+            gap: 30px;
+            margin-top: 150px;
+        }
+        #second>div>img{
+            width: 100%;
+        }
+        #third{
+           margin-top: 150px;
+            display: flex;
+        }
+        #third>div>img{
+            width:100%;
+        }
+        #third>div+div{
+            margin-left: 30px;
+            font-size: 20px;
+        }
+        #fourth{
+            margin-top: 150px;
+            display: flex;
+        }
+        #fourth>div>img{
+            width:100%;
+        }
+        #fourth>div+div{
+            margin-left: 20px;
+            font-size: 20px;
+        }
+        #fourth{
+            margin-top: 70px;
+            display: flex;
+        }
+        #fourth>div>img{
+            width:100%;
+        }
+        #fourth>div+div{
+            margin-left: 20px;
+            font-size: 20px;
+        }
+
+        #fifth{
+            margin-top: 70px;
+            display: flex;
+        }
+        #fifth>div>img{
+            width:100%;
+        }
+        #fifth>div+div{
+            margin-left: 20px;
+            font-size: 20px;
+        }
+        #box2>div>img{
+            width:100%;
+            margin-right: 30px;  
+        }
+        #container1{
+            width: 20%;
+            /* border: 1px solid blue; */
+            margin: auto;
+            margin-top: 100px;
+            
+        }    
+            
+        #first+div>h2{
+            text-align: center;
+        }   
+        #first+div+button{
+            /* background-color: black; */
+            color:white;
+        }
+            
+        #box2+div>button{
+            background-color: black;
+            color: white;
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+           
+        }
+       
+        #text{
+            margin-top: 50px;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="main">
+    <div id="container">
+        <div id="box1">
+           <div id="first">
+              <div>
+                   <img src="https://s3.ap-south-1.amazonaws.com/olb-data/outlook_20220531175908.jpeg" alt="Error" />
+              </div>
+              <div>
+               <p>The Big Story/Lead Story</p>
+               <h1>PROMISING FUTURE, UNDECIDED VCS</h1>
+               <p>Young Indian entrepreneurs are playing virtual reality games like their peers globally. Be it gaming, sports, events or art, start-ups have consolidated user base everywhere, but why are venture capitalists not impressed?</p>
+               <p>Pallavi Chakravorti -June 01,2022</p>
+            </div>
+           </div> 
+           <div id="second">
+               <div>
+                   <img src="https://s3.ap-south-1.amazonaws.com/olb-data/outlook_20220601172404.jpeg" alt="Error" />
+                   <h2>Facebook In A Virtual Avatar</h2>
+                   <p>Pallavi Chakravorti - June 01,2022</p>
+               </div>
+               <div>
+                <img src="https://s3.ap-south-1.amazonaws.com/olb-data/outlook_20220531171203.jpeg" alt="Error" />
+                <h2>Borders of Metaverse</h2>
+                <p>Harsh Kumar - June 01,2022</p>
+               </div>
+               <div>
+                <img src="https://s3.ap-south-1.amazonaws.com/olb-data/outlook_20220531182948.jpeg" alt="Error" />
+                <h2>‘Edtechs Have To Innovate To Survive In Metaverse’</h2>
+                <p>Pallavi Chakravorti - June 01,2022</p>
+               </div>
+           </div>
+           <div id="third">
+               
+               <div>
+                   <img src="https://s3.ap-south-1.amazonaws.com/olb-data/outlook_20220531165023.jpeg" alt="Error" />
+               </div>
+               <div>
+                   <h1>THE BIG AND SMALL OF METAVERSE</h1>
+                   <p>India’s start-ups and Big Tech are competing against and complementing each other in different aspects of metaverse. Be it developing technologies or creating use cases, the virtual horizon of India is expanding at a fast pace and driving the economy towards a Web3 future</p>
+                   <p>Pallavi Chakravorti - June 01,2022</p>
+               </div>
+           </div>
+           <div id="fourth">
+               <div>
+               <img src="https://s3.ap-south-1.amazonaws.com/olb-data/outlook_20220531183442.jpeg" alt="Error" />
+            </div>
+            <div>
+               <h1>FACING A REAL POLLUTION PROBLEM IN METAVERSE</h1>
+               <p>While metaverse’s energy question can find its answer in clean sources, the latter is also dealing with its own waste demons</p>
+               <p>Shailaja Tripathi - June 01,2022</p>
+            </div>
+           </div>
+           <div id="fifth">
+            <div>
+                <img src="https://s3.ap-south-1.amazonaws.com/olb-data/outlook_20220531125520.jpeg" alt="Error" />
+            </div>
+            <div
+                   <h1>‘WE DO NOT WANT A META METAVERSE. IT SHOULD BE INTEROPERABLE’</h1>
+                   <p>Ajit Mohan, vice president and managing director of Meta India, talks about Facebook's transition to Meta, the role India will play in this journey and whether hardware is going to take centre stage in the new world</p>
+                   <p>Suchetana Ray - June 01,2022</p>
+            </div>
+           </div>
+    </div>
+</div>  
+    <div id="container1">
+        <div id="box2">
+           <div id="first">
+               <div>
+               <img src="https://s3.ap-south-1.amazonaws.com/olb-data/outlook_20220528163100.jpeg" alt="Error" />
+            </div>
+        </div>
+        <div>
+        <h2>June 01,2022</h2>
+    </div>
+        </div>
+        <div>
+        <button>SUBSCRIBE NOW</button>
+    </div>
+    <div id="text">
+        <h2>EDITOR'S PICK</h2>
+        <tr>___________________________________</tr>
+        <h2>Why is the BSE valued at only $350 million</h2>
+        <tr>___________________________________</tr>
+        <h2>How far did Baba Ramdev stretch to bag Ruchi Soya?</h2>
+        <tr>___________________________________</tr>
+        <h2>What went wrong at Rana Kapoor's Yes Bank</h2>
+        <tr>___________________________________</tr>
+        <h2>Investors, Sanjiv Bajaj aur COVID-19. Can their love last?</h2>
+        <tr>___________________________________</tr>
+        
+    </div>
+</div>   
+</body>
+</html>          
+        
+   
+
+
+
